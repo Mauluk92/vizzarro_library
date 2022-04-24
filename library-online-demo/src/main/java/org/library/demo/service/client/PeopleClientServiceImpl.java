@@ -11,6 +11,7 @@ public class PeopleClientServiceImpl implements PeopleService {
 
 
     private RestTemplate restClient;
+
     @Autowired
     public PeopleClientServiceImpl() {
         this.restClient=new RestTemplate();
